@@ -202,10 +202,12 @@ MySQL 초기 계정·비밀번호·DB 생성 설정은 **빈 volume으로 처음
 
 ```powershell
 Set-Location C:\sports-facility-hub
-npm run dev:frontend
+npm run dev
 ```
 
 브라우저에서 [http://localhost:5173](http://localhost:5173)을 열면 `Sports Facility Hub`가 표시됩니다. Vite는 5173이 사용 중일 때 임의로 다른 포트를 고르지 않도록 설정되어 있습니다. 종료는 해당 터미널에서 `Ctrl+C`를 누릅니다.
+
+루트의 `npm run dev`는 프론트엔드를 실행하며 `npm run dev:frontend`도 같은 명령입니다. 백엔드는 별도 터미널에서 `npm run dev:backend`로 실행합니다.
 
 `frontend` 폴더 안에서는 `npm run dev`, `npm run build`, `npm run lint`를 사용할 수 있습니다. 루트에서 프론트엔드만 검사·빌드하려면 다음을 실행합니다.
 
