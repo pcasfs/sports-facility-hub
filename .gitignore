@@ -1,0 +1,37 @@
+# Node.js / build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Local environment; examples remain versioned
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Original / processed datasets
+/data/raw/**
+!/data/raw/.gitkeep
+/data/processed/**
+!/data/processed/.gitkeep
+
+# IDE / OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~

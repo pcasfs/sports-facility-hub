@@ -1,0 +1,3 @@
+-- Sports Facility Hub database schema
+-- ERD 확정 후 테이블, 기본키, 외래키, 제약조건을 작성합니다.
+-- 현재는 테이블을 생성하거나 데이터를 적재하지 않습니다.
